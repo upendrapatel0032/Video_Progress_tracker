@@ -1,0 +1,43 @@
+.progress-bar-container {
+  flex: 1;
+  height: 8px;
+  background-color: #333;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.progress-bar-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.watched-segment {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 123, 255, 0.5);
+}
+
+.progress-bar-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #0077ff;
+  transition: width 0.1s linear;
+}
+
+.progress-bar-playhead {
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
