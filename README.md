@@ -1,4 +1,5 @@
 Video Progress Tracker
+
 A Video Progress Tracker built using the MERN stack (MongoDB, Express, React, Node.js). This project allows users to track their progress through video-based content, making it ideal for educational platforms or any system that needs to monitor video watching behavior.
 
 Key Features
